@@ -25,6 +25,9 @@ class Deliveries extends StatelessWidget {
             colors: [Colors.red, Colors.green],
           ),
         ),
+        child: Center(
+          child: const Text('Deliveries')
+        ),
       ),
       bottomNavigationBar: Navigation(
         storage: storage,

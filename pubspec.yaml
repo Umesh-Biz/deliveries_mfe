@@ -13,7 +13,10 @@ dependencies:
     sdk: flutter
 
   ums:
-    path: ../ums
+    path: ../biz_demo/ums
+  
+  orders: 
+    path: ../biz_demo/orders
   flutter_secure_storage: ^9.0.0
 
 dev_dependencies:
